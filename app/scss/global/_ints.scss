@@ -1,11 +1,37 @@
-.logo {
+.lipstick {
+	position: absolute;
+	top: 31%;
+	left: 51%;
+	width: 220px;
+	transform: translateX(-50%);
+	z-index: 50;
 
-	&:focus {
+	&__top {
+		position: absolute;
 	}
 
-	&:hover {
+	&__bottom {
+		position: absolute;
+		top: 225px;
+		left: 3px;
+		width: 167px;
 	}
+}
 
-	&:active {
+.glitter {
+	position: absolute;
+	rotate: -70deg;
+	left: -565px;
+	bottom: -600px;
+}
+
+.product-cart {
+	width: 100%;
+	padding: 20px;
+	border-radius: 95px;
+	background-color: $color-main;
+
+	&__icon {
+		display: block;
 	}
 }
