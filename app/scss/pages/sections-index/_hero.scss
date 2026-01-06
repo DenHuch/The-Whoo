@@ -1,7 +1,11 @@
 .hero {
+	display: flex;
+	align-items: center;
 	overflow: hidden;
 	height: calc(100vh - 199px);
 	position: relative;
+	padding-top: 20px;
+	padding-bottom: 20px;
 
 	&__wrapper {
 		position: relative;
@@ -75,7 +79,7 @@
 		padding: 20px 40px;
 		transform: translateX(-50%);
 		border: 2px solid;
-		border-image: linear-gradient(90deg, #DAB681, #fff) 1;
+		border-image: linear-gradient(90deg, #dab681, #fff) 1;
 	}
 
 	&__cart {
