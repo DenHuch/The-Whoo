@@ -1,0 +1,39 @@
+.gallery {
+	&__list {
+	}
+
+	&__item {
+		display: flex;
+	}
+
+	&__img {
+	}
+
+	&__title {
+		flex: 1;
+		text-align: left;
+		padding-top: 40px;
+	}
+
+	&__wrapper {
+		flex: 1;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	&__inner {
+		max-width: 660px;
+		width: 100%;
+		padding: 40px 36px;
+	}
+
+	&__text {
+		max-width: 465px;
+		width: 100%;
+		margin-bottom: 40px;
+		font-weight: 300;
+	}
+
+	&__button {
+	}
+}
