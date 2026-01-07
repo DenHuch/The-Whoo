@@ -1,0 +1,54 @@
+.collection {
+	&__title {
+		margin-bottom: 100px;
+	}
+
+	&__wrapper {
+		position: relative;
+		background-color: $color-main;
+
+		&::before,
+		&::after {
+			content: '';
+			position: absolute;
+			width: 600px;
+			height: 408px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+
+		&::before {
+			left: 0;
+			bottom: 0;
+			background-image: url('../images/src/glitter-left.png');
+		}
+
+		&::after {
+			top: 0;
+			right: 0;
+			background-image: url('../images/src/glitter-right.png');
+		}
+	}
+
+	&__inner {
+		position: relative;
+		display: flex;
+		justify-content: center;
+	}
+
+	&__product {
+		margin-top: 46px;
+	}
+
+	&__caption {
+		position: absolute;
+    bottom: 45px;
+    right: 190px;
+    max-width: 337px;
+    width: 100%;
+    font-weight: 300;
+    font-style: italic;
+    color: #543426;
+	}
+}
