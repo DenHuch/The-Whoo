@@ -1,0 +1,62 @@
+@keyframes fadeInTop {
+	from {
+		transform: translateY(-200%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+
+@keyframes fadeInLeft {
+	from {
+		transform: translateX(-200%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes glitterAnim {
+	0% {
+		transform: translateX(-120%) rotate(-70deg);
+	}
+	100% {transform: translateX(0) rotate(-70deg);}
+}
+
+@keyframes fadeInRight {
+	from {
+		transform: translateX(200%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes fadeInBottom {
+	from {
+		transform: translate(-50%, 300%);
+	}
+	to {
+		transform: translate(-50%, 0);
+	}
+}
+
+@keyframes circleAnim {
+	0% {
+		transform: translate(-50%, -50%) scale(1);
+		opacity: 0.8;
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(0);
+		opacity: 0;
+	}
+}
+
+@keyframes lipstickAnim {
+	0% {
+		transform: translate(-50%, 70vh);
+	}
+	100% {
+		transform: translate(-50%, 0);
+	}
+}

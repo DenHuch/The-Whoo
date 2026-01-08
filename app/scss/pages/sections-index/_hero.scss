@@ -14,6 +14,7 @@
 
 	&__top {
 		margin-bottom: 40px;
+		animation-name: fadeInLeft;
 	}
 
 	&__text {
@@ -33,17 +34,30 @@
 		display: flex;
 		gap: 170px;
 		margin-left: 150px;
+		animation-name: fadeInLeft;
+		animation-delay: 0.2s;
 	}
 
 	&__title {
+		font-family: 'Newsreader', sans-serif;
 		font-size: 100px;
 		font-weight: 500;
 		text-transform: uppercase;
 	}
 
+	&__img {
+		animation-name: fadeInRight;
+		animation-delay: 0.3s;
+	}
+
 	&__bottom {
 		display: flex;
 		justify-content: flex-end;
+	}
+
+	&__inner {
+		animation-name: fadeInRight;
+		animation-delay: 0.2s;
 	}
 
 	&__subtitle {
@@ -70,6 +84,8 @@
 		bottom: 0;
 		left: 50%;
 		transform: translateX(-50%);
+		animation-name: fadeInBottom;
+		animation-delay: 0.2s;
 	}
 
 	&__cart {
@@ -78,5 +94,7 @@
 		right: -40px;
 		max-width: 183px;
 		width: 100%;
+		animation-name: fadeInRight;
+		animation-delay: 0.2s;
 	}
 }

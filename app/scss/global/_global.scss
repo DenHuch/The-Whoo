@@ -20,6 +20,11 @@ body {
 	background-repeat: repeat;
 	background-position: center;
 	background-size: contain;
+
+	& * {
+		animation-duration: 1s;
+		animation-fill-mode: both;
+	}
 }
 
 .container {

@@ -23,6 +23,22 @@
 	width: 220px;
 	transform: translateX(-50%);
 	z-index: 50;
+	animation-name: lipstickAnim;
+	animation-delay: 0.3s;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 85px;
+		left: -20px;
+		width: 200px;
+		height: 400px;
+		transform: rotate(12deg);
+		background-image: url('../images/src/shadow.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
 
 	&__top {
 		position: absolute;
@@ -38,10 +54,11 @@
 
 .glitter {
 	position: absolute;
-	rotate: -70deg;
 	left: -565px;
 	bottom: -600px;
+	transform: rotate(-70deg);
 	z-index: 50;
+	animation-name: glitterAnim;
 }
 
 .product-cart {
@@ -53,4 +70,18 @@
 	&__icon {
 		display: block;
 	}
+}
+
+.circle {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 98vw;
+	height: 98vw;
+	border-radius: 50%;
+	background-color: #d5ad72;
+	transform: translate(-50%, -50%);
+	animation-name: circleAnim;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
 }

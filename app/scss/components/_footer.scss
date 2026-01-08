@@ -16,8 +16,6 @@
 		gap: 117px;
 	}
 
-  &__item {}
-
   &__link:not(:last-child) {
 		display: block;
 		margin-bottom: 30px;
@@ -27,17 +25,12 @@
 		margin-bottom: 30px;
 		font-weight: 600;
 	}
-
-  &__address {}
-  &__icon {}
 }
 
 .social {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 20px;
-  &__item {}
-  &__link {}
 }
 
 .copyright {
