@@ -1,0 +1,51 @@
+.footer {
+	background-color: $color-main;
+	
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		font-size: 24px;
+		letter-spacing: -2px;
+		color: $color-main-text;
+		text-transform: uppercase;
+	}
+
+  &__list {
+		display: flex;
+		justify-content: space-between;
+		gap: 117px;
+	}
+
+  &__item {}
+
+  &__link:not(:last-child) {
+		display: block;
+		margin-bottom: 30px;
+	}
+
+  &__subtitle {
+		margin-bottom: 30px;
+		font-weight: 600;
+	}
+
+  &__address {}
+  &__icon {}
+}
+
+.social {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+  &__item {}
+  &__link {}
+}
+
+.copyright {
+  &__name {
+		display: block;
+		padding: 50px;
+		text-align: center;
+		color: #D9B37D;
+		background-color: $color-primary;
+	}
+}
